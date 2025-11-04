@@ -1,0 +1,35 @@
+{
+  "name": "dammic-model-schools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@portabletext/react": "latest",
+    "@sanity/image-url": "latest",
+    "groq": "latest",
+    "next": "^16.0.1",
+    "next-sanity": "latest",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "sanity": "latest"
+  },
+  "devDependencies": {
+    "@sanity/vision": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "^10.4.20",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "latest"
+  }
+}
